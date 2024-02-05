@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.title {
+  font-size: larger;
+  font-weight: 800;
+}
+.socialButtonsContainer {
+  display: flex;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .search{
+    display: none;
+  }
+}

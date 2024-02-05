@@ -1,0 +1,16 @@
+.button {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-solid {
+  background: #4866e2;
+  color: #dfe6f7;
+}
+.button-hollow {
+  background: #fff;
+  color: #484848;
+}

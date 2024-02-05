@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 20px 0;
+}
+.arrowLeft {
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+  cursor: pointer;
+}
+.arrowRight {
+  position: absolute;
+  z-index: 1;
+  right: -20px;
+  cursor: pointer;
+  rotate: 180deg;
+}

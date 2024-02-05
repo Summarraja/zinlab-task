@@ -1,0 +1,77 @@
+.container {
+  display: block;
+  position: relative;
+  text-align: left;
+  border: 1px solid #ebebeb;
+  border-radius: 12px;
+  transition: all 0.3s;
+  overflow: hidden;
+  color: #272e62;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 1rem;
+  width: 11rem;
+  min-height: 180px;
+}
+.container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.title {
+  margin-top: 16px;
+  --tw-text-opacity: 1;
+  color: rgb(18 18 18);
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.description {
+  margin-top: 12px;
+  color: rgba(60, 60, 67, 0.6);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-overflow: ellipsis;
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 1rem;
+    width: 12rem;
+    min-height: 180px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 1.5rem;
+    width: 13rem;
+    min-height: 200px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    padding: 1.5rem;
+    width: 15.8rem;
+    min-height: 230px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0.8rem;
+    width: 9rem;
+    height: 9rem;
+  }
+  .title {
+    margin-top: 12px;
+    line-height: 1.2rem;
+    font-size: 1rem;
+  }
+  .description {
+    margin-top: 10px;
+    line-height: 1rem;
+    font-size: 0.7rem;
+  }
+}
